@@ -19,7 +19,7 @@ Ensure the .txt file from the previous step is in the same directory.
 The script will process the file and generate visualizations of the subgraphs.
 Getting Started
 Clone the Repository:
-
+bash
 git clone https://github.com/MAHARSHEE-SHAH/Subgraphs.git
 cd Subgraphs
 
@@ -39,7 +39,7 @@ Copy code
 python find_all_subgraphs.py
 To visualize subgraphs:
 
-bash
+sh
 Copy code
 python draw_subgraphs.py
 Files
