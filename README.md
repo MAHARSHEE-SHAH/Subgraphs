@@ -1,76 +1,58 @@
-# Subgraph Enumeration and Visualization
+Subgraph Enumeration and Visualization
+Welcome to the Subgraph Enumeration and Visualization project! This repository contains code for finding all possible subgraphs of a given graph and visualizing them.
 
-Welcome to the Subgraph Enumeration and Visualization project! This repository contains a formula and code for finding all possible subgraphs of a given graph and visualizing them.
+Overview
+This project was made possible thanks to Bhavik Dodda, who deserves full credit for:
 
-## Overview
+Deriving the formula for enumerating subgraphs.
+Coding the enumeration process.
+Creating the scripts for visualizing subgraphs.
+My contribution involved taking a brute-force approach to verify and explore the subgraphs through exhaustive computation.
 
-This project includes:
-1. **Enumeration Code**: Calculates the total number of subgraphs for any given graph.
-2. **Visualization Code**: Draws and displays the subgraphs.
+How to Use
+1. Run the Enumeration Code
+Execute the find_all_subgraphs.py script to generate the list of subgraphs.
+Copy the output (excluding the last line) and paste it into a .txt file. This file will be used for visualization.
+2. Run the Visualization Code
+Execute the draw_subgraphs.py script.
+Ensure the .txt file from the previous step is in the same directory.
+The script will process the file and generate visualizations of the subgraphs.
+Getting Started
+Clone the Repository:
 
-## How to Use
+bash
+Copy code
+git clone https://github.com/MAHARSHEE-SHAH/Subgraphs.git
+cd Subgraphs
+Install Dependencies:
 
-### 1. Run the Enumeration Code
+Ensure you have Python installed. Then, install the required packages using:
 
-1. Execute the `find_all_subgraphs.py` script to generate the list of subgraphs.
-2. Copy the output (excluding the last line) and paste it into a `.txt` file. This file will be used for visualization.
+bash
+Copy code
+pip install matplotlib networkx
+Run the Code:
 
-### 2. Run the Visualization Code
+To find subgraphs:
 
-1. Execute the `draw_subgraphs.py` script.
-2. Ensure the `.txt` file from the previous step is in the same directory.
-3. The script will process the file and generate visualizations of the subgraphs.
+bash
+Copy code
+python find_all_subgraphs.py
+To visualize subgraphs:
 
-## Getting Started
-
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/MAHARSHEE-SHAH/Subgraphs.git
-    cd Subgraphs
-    ```
-
-2. **Install Dependencies**:
-
-    Ensure you have Python installed. Then, install the required packages using:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the Code**:
-
-    - To find subgraphs:
-    
-        ```bash
-        python find_all_subgraphs.py
-        ```
-      
-    - To visualize subgraphs:
-
-        ```bash
-        python draw_subgraphs.py
-        ```
-
-## Files
-
-- `find_all_subgraphs.py`: Script to find all subgraphs and save the output.
-- `draw_subgraphs.py`: Script to draw and display subgraphs.
-- `requirements.txt`: List of dependencies required to run the code.
-
-## Contribution
-
+bash
+Copy code
+python draw_subgraphs.py
+Files
+find_all_subgraphs.py: Script to find all subgraphs and save the output.
+draw_subgraphs.py: Script to draw and display subgraphs.
+Contribution
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback and suggestions are welcome!
 
-## License
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Contact
+For any questions or further information, please contact me at maharshee28@gmail.com.
 
-## Contact
-
-For any questions or further information, please contact me at [maharshee28@gmail.com](mailto:maharshee28@gmail.com).
-
----
-
-Happy exploring and visualizing subgraphs!
-
+Huge thanks again to Bhavik Dodda for his incredible contributions to this project!
