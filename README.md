@@ -50,7 +50,7 @@ Contribution
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback and suggestions are welcome!
 
 License
-This project is licensed under the MIT License - see the [LICENSE](path/to/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Contact
 For any questions or further information, please contact me at maharshee28@gmail.com.
