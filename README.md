@@ -20,10 +20,9 @@ The script will process the file and generate visualizations of the subgraphs.
 Getting Started
 Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/MAHARSHEE-SHAH/Subgraphs.git
 cd Subgraphs
+
 Install Dependencies:
 
 Ensure you have Python installed. Then, install the required packages using:
