@@ -2,13 +2,13 @@ Subgraph Enumeration and Visualization
 Welcome to the Subgraph Enumeration and Visualization project! This repository contains code for finding all possible subgraphs of a given graph and visualizing them.
 
 Overview
-This project was made possible thanks to Bhavik Dodda, who deserves full credit for:
+This project was made possible thanks to [Bhavik Dodda](https://github.com/BhavikDodda), who deserves full credit for:
 
 Deriving the formula for enumerating subgraphs.
 Coding the enumeration process.
 Creating the scripts for visualizing subgraphs.
-My contribution involved taking a brute-force approach to verify and explore the subgraphs through exhaustive computation.
 
+My contribution involved taking a brute-force approach to verify and explore the subgraphs through exhaustive computation.
 How to Use
 1. Run the Enumeration Code
 Execute the find_all_subgraphs.py script to generate the list of subgraphs.
