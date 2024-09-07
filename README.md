@@ -28,19 +28,16 @@ Install Dependencies:
 Ensure you have Python installed. Then, install the required packages using:
 
 bash
-Copy code
 pip install matplotlib networkx
 Run the Code:
 
 To find subgraphs:
 
 bash
-Copy code
 python find_all_subgraphs.py
 To visualize subgraphs:
 
-sh
-Copy code
+bash
 python draw_subgraphs.py
 Files
 find_all_subgraphs.py: Script to find all subgraphs and save the output.
